@@ -307,13 +307,19 @@ function greetMe() {
 }
 greetMe();
 
+function streetName ($sname) {
+   echo "$sname Asaba. <br>";
+}
 
+streetName("DLA");
+streetName("Ezenei");
 
+function HomeAddress ($snumber, $sname) {
+   echo "$snumber street $sname Asaba. <br>";
+}
 
-
-
-
-
+HomeAddress("5th" , "DLA");
+HomeAddress("7th" , "Ezenei");
 
 
 ?>
